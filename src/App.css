@@ -1,0 +1,122 @@
+html {
+	scroll-behavior: smooth;
+}
+
+.jumbotron {
+	margin: 0;
+	padding: 0;
+	background: center;
+	background-image: url("./imgs/comp.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	min-height: 100vh;
+}
+
+.nav-item {
+	position: relative;
+	left: 70vw;
+	margin-top: 0;
+	margin-right: 20px;
+	transition: 0.2s ease;
+	color: #ffffff;
+	font-size: 20px;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#x {
+	height: 60vh;
+}
+.nav-item:hover {
+	border-bottom: 2px solid gold;
+	color: gold;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.container {
+	padding-top: 100px;
+}
+
+#a {
+	text-align: justify;
+	font-size: 25px;
+	color: #fff;
+}
+
+#boton {
+	background-color: rgba(0, 0, 0, 0);
+	color: #fff;
+	border: 2px solid;
+	position: relative;
+	left: 40vw;
+}
+#boton:hover {
+	border: 2px solid gold;
+}
+
+#about {
+	height: 100vh;
+	color: #fff;
+	background-color: black;
+	position: relative;
+	text-align: center;
+	background: center;
+	background-image: url("./imgs/prog.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+#projects {
+	color: #fff;
+	height: 100vh;
+	background: center;
+	background-image: url("./imgs/p.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+#contact {
+	color: #fff;
+	height: 60vh;
+	background: center;
+	background-image: url("./imgs/contact.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+#me {
+	position: relative;
+	top: 30vh;
+	color: #fff;
+	text-align: center;
+}
+#out {
+	font-size: 25px;
+}
+h4 {
+	margin: 0;
+	padding: 0;
+}
+h2 {
+	font-size: 50px;
+	padding: 0;
+}
+.dark-overlay {
+	background-color: rgba(0, 0, 0, 0.7);
+	height: 100vh;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+
+@media (max-width: 580px) {
+	h2 {
+		font-size: 45px;
+		margin: 0;
+	}
+	#a {
+		font-size: 15px;
+	}
+	#out {
+		font-size: 15px;
+	}
+}
