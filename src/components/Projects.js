@@ -16,8 +16,8 @@ function Projects() {
 	]);
 
 	const links = [
-		"https://gg-random-quote-app.herokuapp.com/",
 		"https://gg-exercise-app.herokuapp.com/",
+		"https://gg-random-quote-app.herokuapp.com/",
 		"https://gg-calculator.herokuapp.com/",
 		"https://gg-ferraritribute.herokuapp.com/",
 		"https://gg-landingpage.herokuapp.com/",
